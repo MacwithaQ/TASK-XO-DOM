@@ -41,15 +41,15 @@ function clickButton(index) {
   if (turn % 2 === 0) {
     fillButton(index, playerOne);
     lastClicked = playerOne;
-    index1.push(index);
-    console.log(index1);
-    checkWinner();
+    // index1.push(index);
+    // console.log(index1);
+    // checkWinner();
   } else {
     fillButton(index, playerTwo);
     lastClicked = playerTwo;
-    index2.push(index)
-    console.log(index2);
-    checkWinner();
+    // index2.push(index)
+    // console.log(index2);
+    // checkWinner();
   }
   turn += 1;
 }
